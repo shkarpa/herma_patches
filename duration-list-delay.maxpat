@@ -60,12 +60,12 @@
             {
                 "box": {
                     "id": "obj-2",
-                    "linecount": 5,
+                    "linecount": 6,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 399.0, 93.0, 150.0, 74.0 ],
-                    "text": "Accepts a list of durations and emits bangs with those delays in betweens. Accepts a start/stop bang in the second outlet"
+                    "patching_rect": [ 399.0, 93.0, 150.0, 87.0 ],
+                    "text": "Accepts a list of durations and emits the durations with those delays in between. Accepts a start/stop bang in the second outlet."
                 }
             },
             {
@@ -109,7 +109,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 403.0, 44.99999821402359, 150.0, 33.0 ],
-                    "text": "DURATION LIST BANG EMITTER"
+                    "text": "DELAYED DURATION LIST EMITTER"
                 }
             },
             {
@@ -118,9 +118,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 3,
-                    "outlettype": [ "bang", "bang", "int" ],
+                    "outlettype": [ "bang", "int", "int" ],
                     "patching_rect": [ 171.68917310237885, 487.64136880636215, 40.0, 22.0 ],
-                    "text": "t b b i"
+                    "text": "t b i i"
                 }
             },
             {
